@@ -1,0 +1,40 @@
+{
+  "identifier" : "StandbyProducts",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "standbylog_pro_group",
+      "localizations" : [],
+      "name" : "Standby Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "com.shimondeitel.standbylog.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Standby Pro - On-call pay calculation and callout-response stats",
+              "displayName" : "Standby Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.standbylog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Standby Pro Monthly",
+          "subscriptionGroupID" : "standbylog_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
